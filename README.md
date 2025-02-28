@@ -102,6 +102,54 @@ O Azure oferece várias ferramentas para gerenciamento de recursos:
 
 *Nota: O aumento da disponibilidade representa um modelo de custo OpEx típico, onde você paga mais por níveis mais altos de serviço conforme necessário.*
 
+## 🏗️ Modelos de Serviço em Nuvem
+
+O Azure oferece três modelos principais de serviços em nuvem, cada um com diferentes níveis de controle e responsabilidade:
+
+### 🖥️ IaaS (Infrastructure as a Service)
+- **O que é**: Infraestrutura de computação como um serviço
+- **Você gerencia**: Sistemas operacionais, middleware, aplicativos, dados
+- **Azure gerencia**: Servidores, armazenamento, rede, virtualização
+- **Exemplos no Azure**: Máquinas Virtuais, Redes Virtuais, Discos
+- **Quando usar**:
+  - Migração "lift-and-shift" de workloads
+  - Ambiente de teste e desenvolvimento
+  - Aplicações que exigem controle total da infraestrutura
+
+### 🧩 PaaS (Platform as a Service)
+- **O que é**: Plataforma de desenvolvimento e implantação como um serviço
+- **Você gerencia**: Aplicativos e dados
+- **Azure gerencia**: Sistema operacional, middleware, runtime, infraestrutura
+- **Exemplos no Azure**: App Service, Azure Functions, Logic Apps, SQL Database
+- **Quando usar**:
+  - Desenvolvimento rápido de aplicativos
+  - Análise de dados ou business intelligence
+  - Aplicações sem necessidade de gerenciar a infraestrutura subjacente
+
+### 📱 SaaS (Software as a Service)
+- **O que é**: Software pronto para uso entregue pela internet
+- **Você gerencia**: Configuração e uso do software
+- **Azure gerencia**: Todo o stack, incluindo aplicativos e dados
+- **Exemplos no Azure**: Microsoft 365, Dynamics 365, Microsoft Teams
+- **Quando usar**:
+  - Aplicações padronizadas (email, CRM, etc.)
+  - Aplicações que requerem acesso via web ou mobile
+  - Projetos com recursos limitados para manutenção de software
+
+### 📈 Comparação de Responsabilidades
+
+| Recurso | On-premises | IaaS | PaaS | SaaS |
+|---------|-------------|------|------|------|
+| Aplicativos | Você | Você | Você | Azure |
+| Dados | Você | Você | Você | Azure |
+| Runtime | Você | Você | Azure | Azure |
+| Middleware | Você | Você | Azure | Azure |
+| Sistema Operacional | Você | Você | Azure | Azure |
+| Virtualização | Você | Azure | Azure | Azure |
+| Servidores | Você | Azure | Azure | Azure |
+| Armazenamento | Você | Azure | Azure | Azure |
+| Rede | Você | Azure | Azure | Azure |
+
 ## 🔜 Próximos Passos
 
 À medida que você avança no aprendizado do Azure, poderá explorar:
