@@ -1,4 +1,4 @@
-# ![Azure](https://raw.githubusercontent.com/Azure/azure-quickstart-templates/master/1-CONTRIBUTION-GUIDE/images/azure.png#gh-light-mode-only) Introdução ao Microsoft Azure 
+# ☁️ Introdução ao Microsoft Azure
 
 [![Azure](https://img.shields.io/badge/azure-%230072C6.svg?style=for-the-badge&logo=microsoftazure&logoColor=white)](https://azure.microsoft.com)
 [![Licença](https://img.shields.io/badge/Licença-MIT-blue.svg)](LICENSE)
