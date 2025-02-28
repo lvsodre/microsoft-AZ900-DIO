@@ -1,4 +1,4 @@
-# ☁️ Introdução ao Microsoft Azure
+# <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/f/fa/Microsoft_Azure.svg/1200px-Microsoft_Azure.svg.png" width="25" height="25"/> Introdução ao Microsoft Azure 
 
 [![Azure](https://img.shields.io/badge/azure-%230072C6.svg?style=for-the-badge&logo=microsoftazure&logoColor=white)](https://azure.microsoft.com)
 [![Licença](https://img.shields.io/badge/Licença-MIT-blue.svg)](LICENSE)
@@ -68,6 +68,39 @@ Com o Azure, você passa de um modelo CapEx (compra de servidores físicos) para
 - **Segurança**: Múltiplas camadas de proteção para seus dados
 - **Alta disponibilidade**: SLAs (Acordos de Nível de Serviço) que garantem disponibilidade
 - **Agilidade**: Implante recursos rapidamente sem precisar configurar hardware
+
+## 📊 Aprofundamento em Escalabilidade, Confiabilidade e Disponibilidade
+
+### 🔄 Escalabilidade
+A escalabilidade no Azure permite ajustar recursos conforme a demanda:
+- **Escalabilidade vertical**: Aumentar a capacidade de processamento (CPU/Memória)
+- **Escalabilidade horizontal**: Adicionar mais instâncias dos recursos
+
+### 🛡️ Confiabilidade e SLAs (Service Level Agreements)
+Os SLAs do Azure definem os compromissos de disponibilidade e desempenho:
+
+| Nível de Disponibilidade | Tempo de Inatividade Anual | Aplicações Típicas |
+|--------------------------|----------------------------|-------------------|
+| 99% | 3,65 dias | Aplicações não críticas |
+| 99,9% | 8,76 horas | Aplicações internas |
+| 99,99% | 52,56 minutos | Aplicações voltadas ao cliente |
+| 99,999% | 5,26 minutos | Aplicações críticas para negócios |
+
+### 💰 Considerações de Custo vs. Disponibilidade
+- Quanto maior o nível de disponibilidade, maiores os custos (OpEx)
+- Estratégias para otimizar custos:
+  - Escolher o SLA adequado para cada aplicação
+  - Usar zonas de disponibilidade para alta disponibilidade
+  - Implementar arquiteturas resilientes apenas onde necessário
+
+### ⚙️ Gerenciamento
+O Azure oferece várias ferramentas para gerenciamento de recursos:
+- **Azure Portal**: Interface visual baseada na web
+- **Azure CLI**: Interface de linha de comando
+- **Azure PowerShell**: Cmdlets para administração
+- **Azure Resource Manager**: Modelo para implantação e gerenciamento
+
+*Nota: O aumento da disponibilidade representa um modelo de custo OpEx típico, onde você paga mais por níveis mais altos de serviço conforme necessário.*
 
 ## 🔜 Próximos Passos
 
