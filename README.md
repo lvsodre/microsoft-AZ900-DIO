@@ -159,6 +159,37 @@ O Azure oferece três modelos principais de serviços em nuvem, cada um com dife
 - Inteligência Artificial e Machine Learning
 - DevOps e ferramentas de desenvolvimento
 
+# Como Criar um Grupo de Recursos no Microsoft Azure
+
+## O que é um Grupo de Recursos?
+Um grupo de recursos no Azure é um contêiner lógico que armazena recursos relacionados para uma solução Azure. Todos os recursos devem estar em um grupo de recursos, e cada recurso só pode estar em um grupo por vez.
+
+## Passos para Criar um Grupo de Recursos 📋
+
+1. **Acesse o Portal Azure** 🖥️
+   - Entre em [portal.azure.com](https://portal.azure.com) com suas credenciais
+
+2. **Navegue até Grupos de Recursos** 📁
+   - No menu lateral esquerdo, clique em "Grupos de recursos"
+   - Ou use a barra de pesquisa superior e digite "grupos de recursos"
+
+3. **Inicie a Criação** ➕
+   - Clique no botão "Criar" ou "+ Adicionar"
+
+4. **Configure o Grupo** ⚙️
+   - Selecione sua assinatura Azure
+   - Digite um nome único para o grupo de recursos
+   - Escolha a região (datacenter) para armazenar seus metadados
+
+5. **Revise e Crie** ✅
+   - Verifique as informações fornecidas
+   - Clique em "Revisar + criar" e depois em "Criar"
+
+6. **Aguarde a Implantação** ⏱️
+   - O processo de criação geralmente leva apenas alguns segundos
+
+Uma vez criado, você pode começar a adicionar recursos como máquinas virtuais, contas de armazenamento e bancos de dados ao seu novo grupo de recursos.
+
 ## 📖 Recursos para Aprendizado
 
 - [Documentação oficial do Azure](https://docs.microsoft.com/azure)
